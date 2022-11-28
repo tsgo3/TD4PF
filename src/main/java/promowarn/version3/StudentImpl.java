@@ -1,7 +1,6 @@
 package promowarn.version3;
 
 import promowarn.common.mail.EMailAddress;
-import promowarn.version1.Student;
 
 import java.util.Objects;
 import java.util.Optional;

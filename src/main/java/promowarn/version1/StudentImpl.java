@@ -1,7 +1,6 @@
 package promowarn.version1;
 
 import java.util.Objects;
-import java.util.Optional;
 
 import promowarn.common.mail.EMailAddress;
 
@@ -27,7 +26,7 @@ public class StudentImpl implements Student {
     }
 
     @Override
-    public Optional grade() {
+    public Double grade() {
         return grade;
     }
 
