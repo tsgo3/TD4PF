@@ -12,7 +12,7 @@ plugins {
 // on utilise les records de Java
 // utiliser une version suffisante
 // attention, la syntaxe peut changer entre les versions tant que non définitive
-sourceCompatibility = JavaVersion.VERSION_18
+sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {
     jcenter()
