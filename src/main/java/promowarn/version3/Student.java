@@ -1,4 +1,4 @@
-package promowarn.version1;
+package promowarn.version3;
 
 import promowarn.common.mail.EMailAddress;
 
@@ -11,7 +11,5 @@ public interface Student {
 
     Optional grade();
 
-    void grade(final double grade);
-
-    void grade(Optional grade);
+    void grade(final Optional grade);
 }
